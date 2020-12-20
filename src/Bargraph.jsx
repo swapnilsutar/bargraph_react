@@ -8,7 +8,6 @@ function Bargraph(props){
   // console.log(props.math);
   const state = {
     labels: ['Mathematics', 'Physics', 'Chemistry'],
-
     datasets: [
       {
         label: 'Marks Obtain',

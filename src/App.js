@@ -22,17 +22,16 @@ const App = () =>{
         
         </div>
         <div className="col-lg-6 data">
-        <h1>Student Data</h1>
-
-        <Student 
-            setIno={setInfo}
-          />
+          <h1 className="text-center">Student Data</h1> <br/>
+          <Student 
+              setIno={setInfo}
+            />
         </div>
       </div>
 
       <footer className="text-center">
-        <a href="https://swapnilsutar.netlify.com" target="_blank"> Swapnil Sutar</a>
-        </footer>
+        <a href="https://swapnilsutar.netlify.com" rel="noreferrer" target="_blank"> Swapnil Sutar</a>
+        </footer> 
     </>
   );
 }
